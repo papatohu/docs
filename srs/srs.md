@@ -108,18 +108,16 @@ tbd
 ### 3.1 Functionality
 This section will explain the different use cases, you could see in the Use Case Diagram, and their functionality.  
 Until December we plan to implement:
-- 3.1.1 Posting a session
+- 3.1.1 working foundation (eg. site to add tiles to)
 - 3.1.2 Getting an overview
-- 3.1.3 Creating an account
-- 3.1.4 Logging in
-- 3.1.5 Logging out
+- 3.1.3 Adding one functional tile
 
 Until June, we want to implement:
-- 3.1.6 Joining a session
-- 3.1.7 Keeping track of your sessions
-- 3.1.8 Leaving a session
-- 3.1.9 Finding a session
-- 3.1.10 Getting in touch
+- 3.1.4 Adding more functional tiles
+- 3.1.5 Creating an Account
+- 3.1.6 Logging in 
+- 3.1.7 Logging out
+- 3.1.8 Saving customizations
 
 #### 3.1.1 Posting a session
 This feature is the essential one of our project. The user gets the possibility to post a session. Therefore, they have to select a game and also set the time when they want to play.For offline games, they have to set a location, too. For online games the location can be a server for example or simply be tagged as 'online'.
