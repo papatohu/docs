@@ -119,14 +119,13 @@ Until June, we want to implement:
 - 3.1.7 Logging out
 - 3.1.8 Saving customizations
 
-#### 3.1.1 Posting a session
-This feature is the essential one of our project. The user gets the possibility to post a session. Therefore, they have to select a game and also set the time when they want to play.For offline games, they have to set a location, too. For online games the location can be a server for example or simply be tagged as 'online'.
+#### 3.1.1 working foundation
+This feature is the essential one of our project. The user has an basic view with the tiles he decides to see, therefore we have to have a container that works and houses these tiles for further custimisation.
 
-[Posting a session](./use_cases/UC1_Post_Session.md)
+[Posting a session](./a) 
 
 #### 3.1.2 Getting an overview
-This feature provides a basic overview over all current sessions. All posted sessions are added here. From this overview you can select a session and from there join this session.
-
+This feature provides a basic overview over all current tiles. All added tiles are shown here. From this overview you can select and customize your experience.
 [Session overview](./use_cases/UC3_Session_Overview.md)
 
 #### 3.1.3 Creating an account
@@ -260,12 +259,12 @@ The logo is licensed to the Common Playground Team and is only allowed to use fo
 The development will follow the common clean code standards and naming conventions. Also we will create a definition of d which will be added here as soon as its complete.
 
 ## 4. Supporting Information
-For any further information you can contact the Common Playground Team or check our [Common Playground Blog](http://commonplayground.wordpress.com). 
+For any further information you can contact the Papatohu Team or check our [Papatohu Development Blog](http://papatohu.wordpress.com). 
 The Team Members are:
-- Celina Adam
-- Inga Batton
-- Nils Krehl 
-- Denis Reibel
+- Robin Purschwitz
+- Dominik Veith
+- Rafael Luedtke
+- Fabian Hagner
 
 <!-- Picture-Link definitions: -->
 [OUCD]: https://github.com/IB-KA/CommonPlayground/blob/master/UseCaseDiagramCP.png "Overall Use Case Diagram"
