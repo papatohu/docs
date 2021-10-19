@@ -34,23 +34,18 @@ This Software Requirements Specification (SRS) describes all specifications for 
 
 
 ### 1.2 Scope
-The project is going to be realized as an Android App.  
+The project is going to be realized as an progressive Web App.
   
-Actors of this App can be users or moderators.  
+Actors of this App can be users or guests. 
   
 Planned Subsystems are: 
-* Notice Board:  
-The notice board is the essential part of the user interface. Game sessions should be visualized as postings including relevant information about the session. Those should be partly standardized by a form with a free text option for specifics. The data must be stored accordingly.
+* Dashboard:  
+The Dashboard is the main page that shows all the information the user wants to see in a compressed overview.
 * Account System:  
-Users can create accounts so sessions can be connected to a person as well as to join requests. User data must be stored alongside the posting data.
-* Friend List and User Rating:  
-Once the account system is created there will be the option to mark users as favorites. Also users or game sessions should get a rating to counter abuse.
-* Connecting People:  
-The host of a game session has to be notified when someone wants to join their game. Both must then be able to get in touch to organize the details, so messages between the host and the guest have to be enabled. This could be done via automated emails or a custom in-app system. For this an account system is needed.
+Users can create accounts so the configurations they make to their personal dashboard are saved.
 * Storing Data:  
-User data for accounts and possibly profiles has to be stored. Also the game sessions have to be stored as datasets containing the form contents and possibly contact data. The data storage will form the foundation for the visualization, account system and the search feature.
-* Finding your Game:  
-We need a tag system so everyone looking to join a game can search for the kind of games they are interested in. Possibly other aspects can be searchable, such as place or date. Tags must be stored and a search function developed. 
+User data for accounts has to be stored. The data saved includes tile data, visible / invisible tiles and organisation of those chosen.
+
 
 ### 1.3 Definitions, Acronyms and Abbreviations
 | Abbrevation | Explanation                            |
@@ -66,8 +61,8 @@ We need a tag system so everyone looking to join a game can search for the kind 
 
 | Title                                                              | Date       | Publishing organization   |
 | -------------------------------------------------------------------|:----------:| ------------------------- |
-| [Common Playground Blog](http://commonplayground.wordpress.com)    | 18.10.2018 | Common Playground Team    |
-| [GitHub](https://github.com/nilskre/CommonPlayground)              | 18.10.2018 | Common Playground Team    |
+| [Papatohu Development Blog](http://papatohu.wordpress.com)    | 19.10.2021 | Papatohu Team    |
+| [GitHub](https://github.com/papatohu)              		| 19.10.2021 | Papatohu Team    |
 
 
 ### 1.5 Overview
@@ -76,11 +71,11 @@ The following chapter provides an overview of this project with vision and Overa
 ## 2. Overall Description
 
 ### 2.1 Vision
-Inspired by carpool coordination services like ‘BlaBlaCar’ or ‘Mitfahrzentrale’ we want to build an application to coordinate game sessions. We plan to create a platform for people who are looking for other people to play games with. Covering online multiplayer games, tabletop, pen and paper or regular board games we want to provide a kind of bulletin board where people can state what they want to play, when and where they want to do it and how many people they are looking for. Others can then react to the postings and virtually join the play session to be connected by us so everyone can coordinate the actual play session together on a Common Playground.
-
+Inspired by the lifestyle of traditional Maorians, close to nature and true to their history, we wanted to keep things simple and start with a fresh mindset everyday!
+Our application should be a place where you can see all the things that keep your head busy at mornings, all at one glance. The goal is to reduce the need of opening several apps one after another to gather all information that you need starting your day !
 ### 2.2 Use Case Diagram
 
-![OUCD](./UseCaseDiagramCP.png)
+![OUCD](../usecase/UseCase.drawio.png)
 
 - Green: Planned till end of december
 - Yellow: Planned till end of june
@@ -89,31 +84,24 @@ Inspired by carpool coordination services like ‘BlaBlaCar’ or ‘Mitfahrzent
 The technology we use is:
 
 Backend:
--Gradle and Springboot
--H2 Database
+-Java
+-Mongo Database
 
 Frontend:
--Android with Java and XML
+-Angular
 
 IDE:
--IntelliJ and Android Studio
+-IntelliJ and Webstorm
 
 Project Management:
--YouTrack
+-Jira
 -GitHub
--Microsoft Teams
 
 Deployment:
--Travis CI
--Docker and Heroku
+tbd
 
 Testing:
--Cucumber
--Espresso
--JUnit
--Codacy
--CodeMR
--RestAssured
+tbd
 
 ## 3. Specific Requirements
 
