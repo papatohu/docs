@@ -1,10 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-10-19T08:32:46.179Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 OPR/80.0.4170.48" etag="2plpdr2v0g8iNkF_oipL" version="15.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-19T09:11:00.203Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 OPR/80.0.4170.48" etag="6Oq2CgulQzRawOcFYzbD" version="15.5.5" type="github">
   <diagram id="NKVjfRPYUPq6bk1mPdEb" name="Page-1">
     <mxGraphModel dx="1041" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tlWtaL5is1ablU4xG_1U-1" value="Configuration of Components" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tlWtaL5is1ablU4xG_1U-31" value="" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" width="570" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="tlWtaL5is1ablU4xG_1U-1" value="Configuration of Components" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="200" y="10" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tlWtaL5is1ablU4xG_1U-2" value="Devloper" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
@@ -13,13 +16,13 @@
         <mxCell id="tlWtaL5is1ablU4xG_1U-4" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="80" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tlWtaL5is1ablU4xG_1U-5" value="Creation of Components" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tlWtaL5is1ablU4xG_1U-5" value="Creation of Components" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="200" y="275" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="tlWtaL5is1ablU4xG_1U-6" value="Log In" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tlWtaL5is1ablU4xG_1U-6" value="Log In" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="200" y="160" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="tlWtaL5is1ablU4xG_1U-7" value="Use Components" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tlWtaL5is1ablU4xG_1U-7" value="Use Components" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="340" y="75" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tlWtaL5is1ablU4xG_1U-10" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;curved=1;" edge="1" parent="1" source="tlWtaL5is1ablU4xG_1U-4" target="tlWtaL5is1ablU4xG_1U-1">
@@ -29,7 +32,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tlWtaL5is1ablU4xG_1U-14" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="710" y="60" width="60" height="80" as="geometry" />
+          <mxGeometry x="720" y="40" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tlWtaL5is1ablU4xG_1U-15" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="tlWtaL5is1ablU4xG_1U-4" target="tlWtaL5is1ablU4xG_1U-6">
           <mxGeometry relative="1" as="geometry">
@@ -55,7 +58,7 @@
             <mxPoint x="500" y="289.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tlWtaL5is1ablU4xG_1U-22" value="update/ use configuration" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tlWtaL5is1ablU4xG_1U-22" value="update/ use configuration" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="510" y="110" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tlWtaL5is1ablU4xG_1U-23" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;curved=1;" edge="1" parent="1" source="tlWtaL5is1ablU4xG_1U-7" target="tlWtaL5is1ablU4xG_1U-22">
@@ -73,7 +76,7 @@
         <mxCell id="tlWtaL5is1ablU4xG_1U-25" value="Guest" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="400" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tlWtaL5is1ablU4xG_1U-26" value="Registration" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tlWtaL5is1ablU4xG_1U-26" value="Registration" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="200" y="395" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tlWtaL5is1ablU4xG_1U-28" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;curved=1;" edge="1" parent="1" source="tlWtaL5is1ablU4xG_1U-25" target="tlWtaL5is1ablU4xG_1U-26">
