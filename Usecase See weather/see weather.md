@@ -16,10 +16,11 @@ Every registered user can add customized tiles to his screen. One of these tiles
 
 ## 2.1 Basic Flow
 
-- User clicks on "create operation" button
-- User fills in the the form
-- User clicks on "create" to create the operation, he will be sent to the details view of the operation. A success message will be shown.
-- User clicks on "cancel" to close the form without saving the operation.
+- User opens the app and the weather tile is visible
+- System checks if location information is stored for the user, if this information is stored, the weather API is called and the weather information is displayed to the user
+- if no location information can be found, the user has to enter a location
+- the new location is saved to the database
+- the API is called and the weather information is displayed to the user
 
 ### 2.1.1 Activity Diagram
 
@@ -39,42 +40,18 @@ tbd
 Feature: see weather at entered location
 
   As a signed in user
-  i want to see a specific weather
-  and provide additional information regarding my intentions
-  in order to find willing helpers.
+  i want to see specific weather information
 
   Background:
     And I am on the homepage
 
-  Scenario: open new operation dialog
-    Given I am signed in with username "USER" and password "PASSWORD"
-    And I am on the "main" page
-    When I press the "new operation" button
-    Then I am on the "new operation" page
-
-  Scenario: enter valid data and save the operation
-    Given I am signed in with username "USER" and password "PASSWORD"
-    And I am on the "new operation" page
-    When I enter "operation XY" in the field "title"
-    And I enter "Karlsruhe" in the field "location"
-    And I enter "01.01.2018" in the field "date"
-    And I enter "public description" in the field "public_descripion"
-    And I enter "private description" in the field "private_description"
-    And I press the "save" button
-    Then I am on the "details" page
-    And I receive a "success" message
-
-  Scenario: enter invalid data and save the operation
-    Given I am signed in with username "USER" and password "PASSWORD"
-    And I am on the "new operation" page
-    When I enter "operation XY" in the field "title"
-    And I enter "Karlsruhe" in the field "location"
-    And I enter "no date" in the field "date"
-    And I enter "" in the field "public_descripion"
-    And I enter "" in the field "private_description"
-    And I press the "save" button
-    Then I am on the "new operation" page
-    And I receive a "error" message
+  Scenario: requires a custom location on the database
+    if a custom location is found
+        call weather-API
+            display weather-information
+    else user has to enter a location
+        call weather-API
+        display weather-information
 ```
 
 ## 2.2 Alternative Flows
