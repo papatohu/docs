@@ -4,14 +4,13 @@ The user can see the weather at his desired location
 
 ## 1.1 Brief Description
 
-Every normal user can create new operations, making him the organizer of the newly created operation. An organizer must provide a good deal of information about the upcoming operation, like
+## 1.1.1 Public
 
-- required ressources (must have, optional)
-- the public and the private description of the operation
-- the place/location
-- the date and time the operation takes place
+To see the weather at a desired location a user has to be logged in to an account.
 
-The information can be split into a public and a private part. The private part can only be seen by accepted team members.
+## 1.1.2 Private
+
+Every registered user can add customized tiles to his screen. One of these tiles can for example be the weather. To be able to see the weather, the user first has to enter the location to get the weather information from. After that the weather tile shows the weather at the location the user entered befordehand.
 
 # 2 Flow of Events
 
