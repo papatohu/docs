@@ -79,7 +79,7 @@ Our application should be a place where you can see all the things that keep you
 
 - Green: Planned till end of december
 - Yellow: Planned till end of june
-- Red: Idea for the future, but not plannef for now
+- Red: Idea for the future, but not planned for now
 
 ### 2.3 Technology Stack
 The technology we use is:
