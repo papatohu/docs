@@ -23,19 +23,23 @@ Every registered user can add customized tiles to his screen. One of these tiles
 
 ### 2.1.1 Activity Diagram
 
-![Organization Application Activity Diagram](../Diagrams/UCs/CreateOperationActivityDiagramm.jpg)
+![Organization Application Activity Diagram](../activityDiagram/ActivityDiagram-DisplayWeatherInfo.drawio.png)
 
 ### 2.1.2 Mock-up
 
+tbd
+
+<!--
 ![Create Operation Form Wireframe](../Pictures/Wireframes/CreateOperation.png)
+-->
 
 ### 2.1.3 Narrative
 
 ```gherkin
-Feature: new operation
+Feature: see weather at entered location
 
   As a signed in user
-  i want to create a new operation
+  i want to see a specific weather
   and provide additional information regarding my intentions
   in order to find willing helpers.
 
