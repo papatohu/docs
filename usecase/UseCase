@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T07:55:10.035Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 OPR/80.0.4170.61" etag="Jqall5cH1VxZIUyEKLMU" version="15.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-26T08:05:21.924Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 OPR/80.0.4170.61" etag="dsPADpFjl9_bZwlBNknt" version="15.5.5" type="github">
   <diagram id="NKVjfRPYUPq6bk1mPdEb" name="Page-1">
     <mxGraphModel dx="1041" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="115" y="40" width="570" height="480" as="geometry" />
         </mxCell>
         <mxCell id="tlWtaL5is1ablU4xG_1U-1" value="Configure components" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="204" y="50" width="140" height="70" as="geometry" />
+          <mxGeometry x="190" y="70" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tlWtaL5is1ablU4xG_1U-2" value="Devloper" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="44" y="320" width="30" height="60" as="geometry" />
@@ -63,6 +63,10 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="344" y="329.9999999999999" as="sourcePoint" />
             <mxPoint x="504" y="329.9999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="90" />
+              <mxPoint x="490" y="130" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="tlWtaL5is1ablU4xG_1U-22" value="update/ use configuration" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -147,6 +151,19 @@
               <mxPoint x="62" y="150" />
               <mxPoint x="370" y="150" />
               <mxPoint x="370" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_c0s2OOAHaKD_kUnXMh-20" value="go to Homescreen" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="480" y="45" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="V_c0s2OOAHaKD_kUnXMh-21" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;curved=1;exitX=0.629;exitY=0.319;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tlWtaL5is1ablU4xG_1U-4" target="V_c0s2OOAHaKD_kUnXMh-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84" y="160" as="sourcePoint" />
+            <mxPoint x="214" y="95" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="139" />
+              <mxPoint x="100" y="50" />
             </Array>
           </mxGeometry>
         </mxCell>
