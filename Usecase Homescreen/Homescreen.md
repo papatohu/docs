@@ -23,7 +23,7 @@ Every user can go back to his homescreen.
 
 ### 2.1.2 Mock-up
 
-tbd
+![HomeScreen-loggedIn](https://github.com/papatohu/docs/blob/main/mockups/HomeView_loggedIn.png)
 
 ### 2.1.3 Narrative
 
