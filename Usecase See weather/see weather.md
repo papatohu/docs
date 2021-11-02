@@ -28,7 +28,7 @@ Every registered user can add customized tiles to his screen. One of these tiles
 
 ### 2.1.2 Mock-up
 
-tbd
+![Mockup See Weather](https://github.com/papatohu/docs/blob/main/mockups/SeeWeather.png)
 
 <!--
 ![Create Operation Form Wireframe](../Pictures/Wireframes/CreateOperation.png)
