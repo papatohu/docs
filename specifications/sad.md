@@ -119,6 +119,8 @@ N/A
 N/A
 
 ## 9. Data View
+We chose a MongoDB as our Database, as it fits nicley in our usecase for our user config.
+<img src=".dbview/Data View.drawio.png" alt="Model for our Mongo DB" />
 
 
 ## 10. Size and Performance
