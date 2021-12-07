@@ -76,7 +76,7 @@ implementation and data views.
 
 Our project dashup uses the classic Spring Web MVC structure as follows:
 
-<img src="./specifications/image.png" />
+<img src="./image.png" />
 
 ## 3. Architectural Goals And Constraints
 
