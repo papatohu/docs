@@ -101,7 +101,7 @@ This is our overall use-case diagram:
 
 ### 5.1 Overview
 
-
+<img src="./UML_Angular.svg"/>
 
 ### 5.2 Architecturally Significant Design Packages
 
