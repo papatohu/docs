@@ -105,18 +105,19 @@ This is our overall use-case diagram:
 
 ### 5.2 Architecturally Significant Design Packages
 
-
+We created for every part of our project a seperate component with seperate CSS and let Angular put everything together.
 
 ## 6. Process View
 
-N/A
+tbd
 
 ## 7. Deployment View
 
+tbd
 
 ## 8. Implementation View
 
-N/A
+tbd
 
 ## 9. Data View
 We chose a MongoDB as our Database, as it fits nicley in our usecase for our user config.
@@ -126,11 +127,9 @@ We chose a MongoDB as our Database, as it fits nicley in our usecase for our use
 
 ## 10. Size and Performance
 
-N/A
+tbd
 
 ## 11. Quality/Metrics
 
-
-
-## 12. Patterns
+tbd
 
