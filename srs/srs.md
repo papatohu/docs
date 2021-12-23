@@ -75,11 +75,12 @@ Inspired by the lifestyle of traditional Maorians, close to nature and true to t
 Our application should be a place where you can see all the things that keep your head busy at mornings, all at one glance. The goal is to reduce the need of opening several apps one after another to gather all information that you need starting your day !
 ### 2.2 Use Case Diagram
 
-![OUCD](../usecase/UseCase.drawio.png)
+![OUCD](../usecase/UseCase.drawio.scope.png)
 
-- Green: Planned till end of december
-- Yellow: Planned till end of june
-- Red: Idea for the future, but not planned for now
+-Blue = planed not implemented yet; 
+-Green = done; 
+-Purple = partly finished;
+-Pink = if time remains; Orange = not till June
 
 ### 2.3 Technology Stack
 The technology we use is:
@@ -227,7 +228,7 @@ The Team Members are:
 - Robin Purschwitz
 - Dominik Veith
 - Rafael Luedtke
-- Fabian Hagner
+
 
 <!-- Picture-Link definitions: -->
 [OUCD]: https://github.com/IB-KA/CommonPlayground/blob/master/UseCaseDiagramCP.png "Overall Use Case Diagram"
