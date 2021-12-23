@@ -77,10 +77,11 @@ Our application should be a place where you can see all the things that keep you
 
 ![OUCD](../usecase/UseCase.drawio.scope.png)
 
--Blue = planed not implemented yet; 
--Green = done; 
--Purple = partly finished;
--Pink = if time remains; Orange = not till June
+- Blue = planed not implemented yet
+- Green = done
+- Purple = partly finished
+- Pink = if time remains
+- Orange = not till June
 
 ### 2.3 Technology Stack
 The technology we use is:
