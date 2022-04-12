@@ -16,16 +16,19 @@ Every registered user can add customized tiles to his screen. One of these tiles
 
 ## 2.1 Basic Flow
 
-- User opens the app and the cartoon tile is visible
+- User opens the app and the NASA Picture of the day tile is visable
+- each day NASA relases an Picture of the day, which gets loaded via thier API
+- the user can deactivate the tile
+- he can no longer see the NASA Picture of the day, till he activates it again
 
 
 ### 2.1.1 Activity Diagram
 
-![Organization Application Activity Diagram](../activityDiagram/ActivityDiagram-DisplayWeatherInfo.drawio.png)
+![Organization Application Activity Diagram](../activityDiagram/Activity%20diagram%20NASA.drawio.png)
 
 ### 2.1.2 Mock-up
 
-![Mockup See Weather](https://github.com/papatohu/docs/blob/main/mockups/SeeWeather.png)
+![Mockup See Weather](https://github.com/papatohu/docs/blob/main/mockups/NASA_tile.png)
 
 <!--
 ![Create Operation Form Wireframe](../Pictures/Wireframes/CreateOperation.png)
@@ -34,21 +37,18 @@ Every registered user can add customized tiles to his screen. One of these tiles
 ### 2.1.3 Narrative
 
 ```gherkin
-Feature: see weather at entered location
+Feature: see NASA Picture of the day
 
   As a signed in user
-  i want to see specific weather information
+  i want to see the NASA Picture of the day
 
   Background:
     And I am on the homepage
 
-  Scenario: requires a custom location on the database
-    if a custom location is found
-        call weather-API
-            display weather-information
-    else user has to enter a location
-        call weather-API
-        display weather-information
+  Scenario: needs to be activated in cofiguration
+    if tile is set active in config
+        call NASA-API
+            display NASA Picture of the day
 ```
 
 ## 2.2 Alternative Flows
