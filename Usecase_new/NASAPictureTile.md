@@ -10,7 +10,7 @@ To user has to be logged in to his account to see the website and thus the NASA 
 
 ## 1.1.2 Private
 
-Every registered user can add customized tiles to his screen. One of these tiles can for example be the NASA Picture. The tile can be deactivated in the cofiguration
+Every registered user can add customized tiles to his screen. One of these tiles can for example be the NASA Picture. The tile can be deactivated in the cofiguration.
 
 # 2 Flow of Events
 
