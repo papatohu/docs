@@ -1,6 +1,6 @@
 # 1 NASA Picture 
 
-The user can the NASA Picture of the day in an tile.
+The user can see the NASA Picture of the day in an tile.
 
 ## 1.1 Brief Description
 
