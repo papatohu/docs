@@ -1,26 +1,23 @@
-# 1 see weather
+# 1 see an Cartoon 
 
-The user can see the weather at his desired location
+The user can see a new cartoon every day
 
 ## 1.1 Brief Description
 
 ## 1.1.1 Public
 
-To see the weather at a desired location a user has to be logged in to an account.
+To user has to be logged in to his account to see the website and thus the cartoon.
 
 ## 1.1.2 Private
 
-Every registered user can add customized tiles to his screen. One of these tiles can for example be the weather. To be able to see the weather, the user first has to enter the location to get the weather information from. After that the weather tile shows the weather at the location the user entered befordehand.
+Every registered user can add customized tiles to his screen. One of these tiles can for example be the cartoon. The tile can be deactivated in the cofiguration
 
 # 2 Flow of Events
 
 ## 2.1 Basic Flow
 
-- User opens the app and the weather tile is visible
-- System checks if location information is stored for the user, if this information is stored, the weather API is called and the weather information is displayed to the user
-- if no location information can be found, the user has to enter a location
-- the new location is saved to the database
-- the API is called and the weather information is displayed to the user
+- User opens the app and the cartoon tile is visible
+
 
 ### 2.1.1 Activity Diagram
 
