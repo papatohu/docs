@@ -17,16 +17,19 @@ The tile can be deactivated in the cofiguration. The user defines the route of w
 
 ## 2.1 Basic Flow
 
-- User opens the app and the cartoon tile is visible
+- User opens the app and the maps tile is visible
+- the current traffic for the defined rout is shown
+- if nothing is defined, the tile shows a black map
+- the user can define a route and the map gets updated to show it
 
 
 ### 2.1.1 Activity Diagram
 
-![Organization Application Activity Diagram](../activityDiagram/ActivityDiagram-DisplayWeatherInfo.drawio.png)
+![Organization Application Activity Diagram](../activityDiagram/Activity%20diagram%20Maps.drawio.png)
 
 ### 2.1.2 Mock-up
 
-![Mockup See Weather](https://github.com/papatohu/docs/blob/main/mockups/SeeWeather.png)
+![Mockup See Weather](https://github.com/papatohu/docs/blob/main/mockups/Maps_tile.png)
 
 <!--
 ![Create Operation Form Wireframe](../Pictures/Wireframes/CreateOperation.png)
@@ -35,21 +38,20 @@ The tile can be deactivated in the cofiguration. The user defines the route of w
 ### 2.1.3 Narrative
 
 ```gherkin
-Feature: see weather at entered location
+Feature: see current traffic for entered route
 
   As a signed in user
-  i want to see specific weather information
+  i want to see the current traffic for my way to work
 
   Background:
     And I am on the homepage
 
-  Scenario: requires a custom location on the database
-    if a custom location is found
-        call weather-API
-            display weather-information
-    else user has to enter a location
-        call weather-API
-        display weather-information
+  Scenario: requires a custom route on the database
+    if a custom route is found
+        call maps-API
+            display traffic-information
+    else user has to enter a route
+        display blanc map
 ```
 
 ## 2.2 Alternative Flows
