@@ -1,12 +1,13 @@
-# Dashup - Software Architecture Document
+# Software Architecture Document
 
-### Version 2.1
+### Version 1.1
 
 # Revision history
 
 | Date       | Version | Description                                          | Author           |
 |------------|---------|------------------------------------------------------|------------------|
 | 30/11/2021 | 1.0     | Initial Documentation                                | Fabian Hagner    |
+| 19/04/2021 | 1.1     | Fixing Errors in the Document                        | Rafael Lüdtke    |
 
 
 # Table of Contents
