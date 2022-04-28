@@ -71,7 +71,7 @@
 ### 1.1 Purpose
 
 The purpose of the Iteration Test Plan is to gather all of the information necessary to plan and control the test effort for a given iteration. It describes the approach to testing the software.
-This Test Plan for Vaultionizer supports the following objectives:
+This Test Plan for **Papatohu** supports the following objectives:
 
 - Identifies the items that should be targeted by the tests.
 - Identifies the motivation for and ideas behind the test areas to be covered.
