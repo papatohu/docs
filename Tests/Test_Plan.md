@@ -1,8 +1,8 @@
-# Test Plan Template
+# Test Plan for Papatohu
 
 ## Table of contents
 
-- [Test Plan Template](#test-plan-template)
+- [Test Plan for Papatohu](#test-plan-for-papatohu)
   - [Table of contents](#table-of-contents)
   - [1. Introduction](#1-introduction)
     - [1.1 Purpose](#11-purpose)
