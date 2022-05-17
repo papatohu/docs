@@ -104,6 +104,10 @@ This is our overall use-case diagram:
 
 <img src="./UML_Angular.svg"/>
 
+After refactoring our Code regarding Design Pattern we have a updated Overview:
+
+<img src="./app.module.png"/>
+
 ### 5.2 Architecturally Significant Design Packages
 
 We created for every part of our project a seperate component with seperate CSS and let Angular put everything together.
