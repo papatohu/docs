@@ -197,12 +197,14 @@ We don't have any purchased components yet. If there will be purchased component
 
 #### 3.9.1 User Interfaces
 The User interfaces that will be implented are:
-- Dashboard - lists all session and makes it possible to filter sessions
-- Customizing View  - shows detailed information about the tiles and makes it possible to (de)activate and move them to your liking
-- Login - this page is used to log in 
-- Register - provides a registration form
-- Profile - makes it possible to post information about yourself
-- Settings - shows the settings
+-Login - this page is used to log in
+-Register - provides a registration form
+-Dashboard - lists all tiles
+-Customizing View regarding tiles:
+-shows detailed information
+-make it possible to move them
+-edit them to your liking regarding the infos
+
 
 #### 3.9.2 Hardware Interfaces
 (n/a)
