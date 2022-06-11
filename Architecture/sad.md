@@ -96,7 +96,7 @@ user with the developers widgets. But we do accept this limitation, because of t
 
 This is our overall use-case diagram:
 
-<img src="../usecase/UseCase.drawio.png" alt="Overall use-case diagram" />
+<img src="../usecase/UseCase_final.png" alt="Overall use-case diagram" />
 
 ## 5. Logical View
 
