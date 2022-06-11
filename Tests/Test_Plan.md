@@ -156,7 +156,9 @@ Backend: Spring Boot Application:
 
 - Unit testing
 
-![Testing overview](../Tests/Testing_overview.drawio.pdf)  
+<img src="Tests.drawio.png" />
+
+
 
 The tests themself will not be tested and will not account into code coverage.
 
