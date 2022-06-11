@@ -197,13 +197,13 @@ We don't have any purchased components yet. If there will be purchased component
 
 #### 3.9.1 User Interfaces
 The User interfaces that will be implented are:
--Login - this page is used to log in
--Register - provides a registration form
--Dashboard - lists all tiles
--Customizing View regarding tiles:
--shows detailed information
--make it possible to move them
--edit them to your liking regarding the infos
+- Login - this page is used to log in
+- Register - provides a registration form
+- Dashboard - lists all tiles
+- Customizing View regarding tiles:
+- shows detailed information
+- make it possible to move them
+- edit them to your liking regarding the infos
 
 
 #### 3.9.2 Hardware Interfaces
