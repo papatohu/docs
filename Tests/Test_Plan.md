@@ -156,7 +156,7 @@ Backend: Spring Boot Application:
 
 - Unit testing
 
-![Testing overview](https://github.com/papatohu/docs/blob/main/Tests/Testing_overview.drawio.pdf)  
+![Testing overview](/Testing_overview.drawio.pdf)  
 
 The tests themself will not be tested and will not account into code coverage.
 
