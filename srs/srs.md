@@ -75,7 +75,7 @@ Inspired by the lifestyle of traditional Maorians, close to nature and true to t
 Our application should be a place where you can see all the things that keep your head busy at mornings, all at one glance. The goal is to reduce the need of opening several apps one after another to gather all information that you need starting your day !
 ### 2.2 Use Case Diagram
 
-![OUCD](../usecase/UseCase.drawio.scope.png)
+![OUCD](../usecase/UseCase_final.png)
 
 - Blue = planed not implemented yet
 - Green = done
