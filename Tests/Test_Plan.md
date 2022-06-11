@@ -156,7 +156,7 @@ Backend: Spring Boot Application:
 
 - Unit testing
 
-<img src="Tests.drawio.png" />
+<img src="Tests.png" />
 
 
 
