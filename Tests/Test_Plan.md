@@ -148,13 +148,14 @@ Items for Testing:
 
 ### 4.1 Outline of Test Inclusions
 
-Frontend: Android Client:
+Frontend: Angular WebApp:
 
 - Unit testing
 
 Backend: Spring Boot Application:
 
 - Unit testing
+- API testing
 
 <img src="Tests.png" />
 
