@@ -197,10 +197,10 @@ The User interfaces that will be implented are:
 - make it possible to move them
 - edit them to your liking regarding the infos
 
-### 3.11 Legal, Copyright, and Other Notices
+### 3.10 Legal, Copyright, and Other Notices
 We do not take responsibilty for any incorrect data or errors in the application.
 
-### 3.12 Applicable Standards
+### 3.11 Applicable Standards
 The development will follow the common clean code standards and naming conventions. Also we will create a definition of d which will be added here as soon as its complete.
 
 ## 4. Supporting Information
