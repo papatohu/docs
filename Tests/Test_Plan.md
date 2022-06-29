@@ -10,7 +10,6 @@
     - [1.3 Intended Audience](#13-intended-audience)
     - [1.4 Document Terminology and Acronyms](#14-document-terminology-and-acronyms)
     - [1.5  References](#15--references)
-    - [1.6 Document Structure](#16-document-structure)
   - [2. Evaluation Mission and Test Motivation](#2-evaluation-mission-and-test-motivation)
     - [2.1 Background](#21-background)
     - [2.2 Evaluation Mission](#22-evaluation-mission)
@@ -18,32 +17,15 @@
   - [3. Target Test Items](#3-target-test-items)
   - [4. Outline of Planned Tests](#4-outline-of-planned-tests)
     - [4.1 Outline of Test Inclusions](#41-outline-of-test-inclusions)
-    - [4.2 Outline of Other Candidates for Potential Inclusion](#42-outline-of-other-candidates-for-potential-inclusion)
-    - [4.3 Outline of Test Exclusions](#43-outline-of-test-exclusions)
+    - [4.2 Outline of Test Exclusions](#43-outline-of-test-exclusions)
   - [5. Test Approach](#5-test-approach)
-    - [5.1 Initial Test-Idea Catalogs and Other Reference Sources](#51-initial-test-idea-catalogs-and-other-reference-sources)
-    - [5.2 Testing Techniques and Types](#52-testing-techniques-and-types)
-      - [5.2.1 Unit testing](#521-unit-testing)
+    - [5.1 Testing Techniques and Types](#52-testing-techniques-and-types)
+      - [5.1.1 Unit testing](#521-unit-testing)
   - [6. Entry and Exit Criteria](#6-entry-and-exit-criteria)
     - [6.1 Test Plan](#61-test-plan)
       - [6.1.1 Test Plan Entry Criteria](#611-test-plan-entry-criteria)
-      - [6.1.2 Test Plan Exit Criteria](#612-test-plan-exit-criteria)
-      - [6.1.3 Suspension and Resumption Criteria](#613-suspension-and-resumption-criteria)
-    - [6.2 Test Cycles](#62-test-cycles)
-        - [6.2.1 Test Cycle Entry Criteria](#621-test-cycle-entry-criteria)
-        - [6.2.2 Test Cycle Exit Criteria](#622-test-cycle-exit-criteria)
-        - [6.2.3 Test Cycle Abnormal Termination](#623-test-cycle-abnormal-termination)
   - [7. Deliverables](#7-deliverables)
-  - [7.1 Test Evaluation Summaries](#71-test-evaluation-summaries)
-  - [7.2 Reporting on Test Coverage](#72-reporting-on-test-coverage)
-  - [7.3 Perceived Quality Reports](#73-perceived-quality-reports)
-  - [7.4 Incident Logs and Change Requests](#74-incident-logs-and-change-requests)
-  - [7.5 Smoke Test Suite and Supporting Test Scripts](#75-smoke-test-suite-and-supporting-test-scripts)
-  - [7.6      Additional Work Products](#76------additional-work-products)
-    - [7.6.1     Detailed Test Results](#761-----detailed-test-results)
-    - [7.6.2     Additional Automated Functional Test Scripts](#762-----additional-automated-functional-test-scripts)
-    - [7.6.3     Test Guidelines](#763-----test-guidelines)
-    - [7.6.4     Traceability Matrices](#764-----traceability-matrices)
+  - [7.1 Incident Logs and Change Requests](#74-incident-logs-and-change-requests)
   - [8. Testing Workflow](#8-testing-workflow)
   - [9. Environmental Needs](#9-environmental-needs)
     - [9.1 Base System Hardware](#91-base-system-hardware)
@@ -51,10 +33,8 @@
     - [9.3 Productivity and Support Tools](#93-productivity-and-support-tools)
   - [10. Responsibilities, Staffing, and Training Needs](#10-responsibilities-staffing-and-training-needs)
     - [10.1 People and Roles](#101-people-and-roles)
-    - [10.2 Staffing and Training Needs](#102-staffing-and-training-needs)
   - [11. Iteration Milestones](#11-iteration-milestones)
   - [12. Risks, Dependencies, Assumptions, and Constraints](#12-risks-dependencies-assumptions-and-constraints)
-  - [13. Management Process and Procedures](#13-management-process-and-procedures)
 
 ## 1. Introduction
 
@@ -111,11 +91,6 @@ This Document is written for internal documentation reasons. It has the function
 | [SRS](../srs/srs.md)                                                    | Oct. 2021  |     Papatohu              |
 | [SAD](../Architecture/sad.md)                                           | Nov. 2021  |     Papatohu              |
 
-### 1.6 Document Structure
-
-n/a
-
-
 ## 2. Evaluation Mission and Test Motivation
 
 
@@ -163,11 +138,8 @@ Backend: Spring Boot Application:
 
 The tests themself will not be tested and will not account into code coverage.
 
-### 4.2 Outline of Other Candidates for Potential Inclusion
 
-n/a
-
-### 4.3 Outline of Test Exclusions
+### 4.2 Outline of Test Exclusions
 
 Because of time and resource constraints we will not do:
 
@@ -178,13 +150,9 @@ Because of time and resource constraints we will not do:
 
 ## 5. Test Approach
 
-### 5.1 Initial Test-Idea Catalogs and Other Reference Sources
+### 5.1 Testing Techniques and Types
 
-n/a
-
-### 5.2 Testing Techniques and Types
-
-#### 5.2.1 Unit testing
+#### 5.1.1 Unit testing
 
 Unit testing ensures, that the tested source code works as expected. Therefore small parts of the source code are tested independently.
 
@@ -206,66 +174,12 @@ Unit testing ensures, that the tested source code works as expected. Therefore s
 
 Pushing new commits to GitHub triggers a GitHub action pipeline that can later be used for additional tests.
 
-#### 6.1.2 Test Plan Exit Criteria
-
-n/a
-
-#### 6.1.3 Suspension and Resumption Criteria
-
-n/a
-
-### 6.2 Test Cycles
-
-##### 6.2.1 Test Cycle Entry Criteria
-
-n/a
-
-##### 6.2.2 Test Cycle Exit Criteria
-
-n/a
-
-##### 6.2.3 Test Cycle Abnormal Termination
-
-n/a
-
 
 ## 7. Deliverables
 
-## 7.1 Test Evaluation Summaries
-
-n/a
-
-## 7.2 Reporting on Test Coverage
-
-tbd
-
-## 7.3 Perceived Quality Reports
-
-n/a
-
-## 7.4 Incident Logs and Change Requests
+## 7.1 Incident Logs and Change Requests
 
 GitHub Actions executes test on a new push
-
-## 7.5 Smoke Test Suite and Supporting Test Scripts
-
-n/a
-
-## 7.6      Additional Work Products
-n/a
-
-### 7.6.1     Detailed Test Results
-n/a
-
-### 7.6.2     Additional Automated Functional Test Scripts
-n/a
-
-### 7.6.3     Test Guidelines
-n/a
-
-### 7.6.4     Traceability Matrices
-n/a
-
 
 
 ## 8. Testing Workflow
@@ -322,10 +236,6 @@ This table shows the staffing assumptions for the test effort.
 | Database Administrator, Database Manager | Rafael                 | Ensures test data (database) environment and assets are managed andmaintained.  |
 | Implementer                              | Dominik, Robin, Rafael | Implements and unit tests the test classes and test packages.                   |
 
-### 10.2 Staffing and Training Needs
-
-n/a
-
 ## 11. Iteration Milestones
 
 We want to keep over 32% code coverage.
@@ -336,7 +246,3 @@ We want to keep over 32% code coverage.
 |------|---------------------|--------------------------------|
 | Code has lots of side effects | Refactor code (Clean Code principles) | publish new refactored tests |
 | Test Runner is not able to execute tests | Use standard libraries which include working Test Runner | fix test execution configuration |
-
-## 13. Management Process and Procedures
-
-n/a
