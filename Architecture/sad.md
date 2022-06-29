@@ -1,6 +1,6 @@
 # Software Architecture Document
 
-### Version 1.1
+### Version 1.2
 
 # Revision history
 
