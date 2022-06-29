@@ -101,10 +101,12 @@ Project Management:
 -GitHub
 
 Deployment:
-tbd
+Frontend: Apache Server with XAMPP
+Backend: Executable jar file
 
 Testing:
-tbd
+Backend: Testing with JUnit
+Frontend: Testing with Karma
 
 ## 3. Specific Requirements
 
@@ -125,11 +127,10 @@ Until June, we want to implement:
 #### 3.1.1 working foundation
 This feature is the essential one of our project. The user has an basic view with the tiles he decides to see, therefore we have to have a container that works and houses these tiles for further custimisation.
 
-[Posting a session](./a) 
+[Homescreen Markup](//github.com/papatohu/docs/blob/main/Usecase%20Homescreen/Homescreen.md) 
 
 #### 3.1.2 Getting an overview
 This feature provides a basic overview over all current tiles. All added tiles are shown here. From this overview you can select and customize your experience.
-[Session overview](./use_cases/UC3_Session_Overview.md)
 
 #### 3.1.3 Adding a functional tile
 This feature provides our first tile that acts as a template for all other tiles during development.
@@ -158,7 +159,7 @@ Our goal is that we have no loss of any data. This is important so that user doe
 The system should be able to manage to run on low computing power devices to make it accessible to as many people as possible.
 
 #### 3.4.2 Storage 
-tbd
+The backend connects to a central Mongo Database, which can be changed upon request.
 
 #### 3.4.3 App perfomance / Response time
 To provide the best App perfomance we aim to keep the response time as low as possible. This will make the user experience much better.
@@ -169,23 +170,15 @@ To provide the best App perfomance we aim to keep the response time as low as po
 We are going to write the code by using all of the most common clean code standards. For example we will name our variables and methods by their functionalities. This will keep the code easy to read by everyone and make further developement much easier.
 
 #### 3.5.2 Testing Strategy
-tbd
+Backend: API testing (API is reachable, can connect to the database and returns a value)
 
 ### 3.6 Design Constraints
 We are trying to provide a modern and easy to handle design for the UI aswell as for the architecture of our application. To achieve that the functionalities will be kept as modular as possible.
-....ada
 
-
-
-explanation of why we choose what and supported platforms
-*//
-example:
-Because we are progamming an Android App we chose Java as our programming language. Also we are using the common MVC-architecture to keep the front end and back end seperated. For a clean front end structure we use MVVM.
-To make the communication between the two parts easy, we will implement a RESTful-API between them which will provide the data in JSON-Format. 
-The supported Platforms will be:
-- Android 4.4 and higher
-- Java 8 and higher
-//*
+explanation of why we choose what and supported platforms:
+Because we are progamming a website with Angular, we chose Typescript/JavaScript/EcmaScript in the frontend. Also we are using the basic frontend - backend principle to keep UI-referred seperated from the backend services. For a clean front end structure we use Angular. To make the communication between the two parts easy, we implemented a RESTful-API between them which will provide the data in JSON-Format.
+The supported Platforms are:
+- Any internet-capable device
 
 ### 3.7 On-line User Documentation and Help System Requirements
 The usage of the app should be as intuitive as possible so it won't need any further documentation. If the user needs some help we will implement a "Help"-Button in the App which includes a FAQ and a formular to contact the developement team.
@@ -205,21 +198,7 @@ The User interfaces that will be implented are:
 - make it possible to move them
 - edit them to your liking regarding the infos
 
-
-#### 3.9.2 Hardware Interfaces
-(n/a)
-
-#### 3.9.3 Software Interfaces
-tbd
-
-#### 3.9.4 Communication Interfaces
-tbd
-
-### 3.10 Licensing Requirements
-tbd
-
 ### 3.11 Legal, Copyright, and Other Notices
-tbd
 We do not take responsibilty for any incorrect data or errors in the application.
 
 ### 3.12 Applicable Standards
