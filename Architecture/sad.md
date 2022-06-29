@@ -138,3 +138,10 @@ We used the integrated tools of WebStorm and IntelliJ to calculated our test cov
 
 The Cyclomatic complexity is a metric we took a look at in our Backend, to ensure that all request are fast, and the program has as few as possible decisions to make.
 
+## 12. Patterns
+
+In Angular, ther is a concept called services. The services can be used to seperate structural code from the UI related code of a components typescript class.
+The first step was to put all code in the components typescript class, although there is this services concept.
+The following 2 examples show the weather component before and after applying the pattern.
+<img src="https://papatohu.files.wordpress.com/2022/05/weather_before.png" alt="Weather component before pattern" />
+<img src="https://papatohu.files.wordpress.com/2022/05/weather_after.png" alt="Weather component after pattern" />
