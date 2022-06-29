@@ -20,11 +20,10 @@
     - [Supportability](#35-supportability)
     - [Design Constraints](#36-design-constraints)
     - [Online User Documentation and Help System Requirements](#37-on-line-user-documentation-and-help-system-requirements)
-    - [Purchased Components](#purchased-components)
+    - [Purchased Components](38#-purchased-components)
     - [Interfaces](#39-interfaces)
-    - [Licensing Requirements](#310-licensing-requirements)
-    - [Legal, Copyright And Other Notices](#311-legal-copyright-and-other-notices)
-    - [Applicable Standards](#312-applicable-standards)
+    - [Legal, Copyright And Other Notices](#310-legal-copyright-and-other-notices)
+    - [Applicable Standards](#311-applicable-standards)
 - [Supporting Information](#4-supporting-information)
 
 ## 1. Introduction
@@ -153,7 +152,7 @@ Since the Application doesnt communicate with other instances of itself the upti
 #### 3.3.2 Defect Rate
 Our goal is that we have no loss of any data. This is important so that user doesn't feel frustrated loosing the setting he made to improve his experience.
 
-### 3.4 Perfomance
+### 3.4 Performance
 
 #### 3.4.1 Capacity
 The system should be able to manage to run on low computing power devices to make it accessible to as many people as possible.
