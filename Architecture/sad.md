@@ -7,7 +7,8 @@
 | Date       | Version | Description                                          | Author           |
 |------------|---------|------------------------------------------------------|------------------|
 | 30/11/2021 | 1.0     | Initial Documentation                                | Fabian Hagner    |
-| 19/04/2021 | 1.1     | Fixing Errors in the Document                        | Rafael Lüdtke    |
+| 19/04/2022 | 1.1     | Fixing Errors in the Document                        | Rafael Lüdtke    |
+| 29/06/2022 | 1.2     | Final Handover                                       | Rafael Lüdtke    |
 
 
 # Table of Contents
@@ -42,7 +43,7 @@ decisions which have been made on the system.
 
 ### 1.2 Scope
 
-This document describes the technical architecture of the Dashup project, including module structure and dependencies as 
+This document describes the technical architecture of papatohu, including module structure and dependencies as 
 well as the structure of classes.
 
 ### 1.3 Definitions, Acronyms and Abbreviations
@@ -59,6 +60,7 @@ well as the structure of classes.
 | N/A          | Not Applicable                         |
 | DAO          | Data Access Object                     |
 | DTO          | Data Transfer Object                   |
+| n/a          | not applicable                         |
 
 ### 1.4 References
 
@@ -75,28 +77,23 @@ implementation and data views.
 
 ## 2. Architectural Representation
 
-Our project dashup uses the classic Spring Web MVC structure as follows:
+Our project uses the classic Spring Web MVC structure as follows:
 
 <img src="./image.png" />
 
 ## 3. Architectural Goals And Constraints
 
 As our main technology we decided to use Spring Web MVC, which is a framework that takes care of the backend and makes it possible to connect to our frontend which is managed with Angular. 
-Besides the controller and model language is Java, so that we do not have to care about 
-serialization.
-The main architectural goal of this project is portability, distribution and reuse. Since we want our users to customize 
-their dashup in any way they want, everything has to be kept abstract and must be made for reuse. 
-But of course, the dashup project should be safe as we are storing user sensitive data that should not fall into wrong 
-hands.
-Architectural constraints for this project might be the interaction with widgets, since we do not allow the user to 
-upload executable code for security reasons. So the developer might be limited when it comes to the interaction of the 
-user with the developers widgets. But we do accept this limitation, because of the security goal. 
+Our decision fell onto Spring and Angular, as we all have experience in Java and JavaScript, which makes it possible for each project member to understand all the code written for this project.
+The main architectural goal of this project is to support an easy to used Web-App. We used an MongoDB as a fast Database and to take advantage of the fact that MongoDB does not require all documents to be the same. This made it easy to store the user configuration, as the order of the tiles is changed in the array when the user drag and drops it on his site.
 
 ## 4. Use-Case View
 
 This is our overall use-case diagram:
 
 <img src="../usecase/UseCase_final.png" alt="Overall use-case diagram" />
+
+green = finished; orange = possible feature, not in current scope; blue = in progress; white = planed;
 
 ## 5. Logical View
 
@@ -114,15 +111,15 @@ We created for every part of our project a seperate component with seperate CSS 
 
 ## 6. Process View
 
-tbd
+n/a
 
 ## 7. Deployment View
 
-tbd
+n/a
 
 ## 8. Implementation View
 
-tbd
+n/a
 
 ## 9. Data View
 We chose a MongoDB as our Database, as it fits nicley in our usecase for our user config.
@@ -132,9 +129,12 @@ We chose a MongoDB as our Database, as it fits nicley in our usecase for our use
 
 ## 10. Size and Performance
 
-tbd
+n/a
 
 ## 11. Quality/Metrics
 
-tbd
+We used Codacy to control  our code quality, in which the Frontend and the Backend got an A. 
+We used the integrated tools of WebStorm and IntelliJ to calculated our test coverage. The Unit Test as well as the API-Test are used to ensure that our application runs without any errors.
+
+The Cyclomatic complexity is a metric we took a look at in our Backend, to ensure that all request are fast, and the program has as few as possible decisions to make.
 
