@@ -143,5 +143,5 @@ The Cyclomatic complexity is a metric we took a look at in our Backend, to ensur
 In Angular, ther is a concept called services. The services can be used to seperate structural code from the UI related code of a components typescript class.
 The first step was to put all code in the components typescript class, although there is this services concept.
 The following 2 examples show the weather component before and after applying the pattern.
-<img src="https://papatohu.files.wordpress.com/2022/05/weather_before.png" alt="Weather component before pattern" />
-<img src="https://papatohu.files.wordpress.com/2022/05/weather_after.png" alt="Weather component after pattern" />
+<img src="https://papatohu.files.wordpress.com/2022/05/weather_before.png" width="512px" alt="Weather component before pattern" />
+<img src="https://papatohu.files.wordpress.com/2022/05/weather_after.png" width="512px" alt="Weather component after pattern" />
